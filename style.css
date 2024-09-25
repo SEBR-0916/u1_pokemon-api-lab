@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(203, 223, 117);
+    border-radius: 50%;
+    
+}
+#inputBar{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#searchButton{
+    position: absolute;
+}
+#pokemonName{
+    display: flex;
+}
+#pokemonImage{
+   width: 50%;
+   height: 50%;
+    
+}
+#pokemonImage:hover{
+    opacity: 50%;
+    
+}
+
